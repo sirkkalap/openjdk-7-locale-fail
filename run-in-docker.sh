@@ -9,7 +9,7 @@ PROJECT=project
 CONTAINER_NAME=build
 
 read -r -d '' SCRIPT <<- End
-    cd $PROJECT
+    cd /$PROJECT
     bash -x ./run.sh
 End
 

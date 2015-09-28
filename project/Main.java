@@ -9,7 +9,10 @@ import java.util.Locale;
  */
 public class Main {
     public static void main(String[] args) {
-        Currency currency = Currency.getInstance(Locale.getDefault());
+        Locale locale = Locale.getDefault();
+        System.out.println("Locale: " + locale);
+        System.out.println("Country: " + locale.getCountry());
+        Currency currency = Currency.getInstance(locale);
         System.out.println("Currency: " + currency);
     }
 }
