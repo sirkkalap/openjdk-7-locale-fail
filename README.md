@@ -11,5 +11,4 @@ This happens on debian and ubuntu linux.
 This happens with OpenJDK7 and Oracle JDK 8
 
 So far I have not been able to reproduce this on OSX 10.10.5 with java version "1.7.0_71"
-- It seems that Java runtime replaces the system LANG on that platform
-- 
+ o It seems that Java runtime replaces the system LANG on that platform
